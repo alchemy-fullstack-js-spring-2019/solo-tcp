@@ -9,8 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest --verbose",
-    "test:watch": "npm run test -- --watch"
+    
   },
   "repository": {
     "type": "git",
