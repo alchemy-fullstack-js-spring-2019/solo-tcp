@@ -7,24 +7,17 @@ const rl = readline.createInterface({
   prompt: '> '
 });
 
-const client = net.createConnection(7890, '192.168.1.238', () => {
+const connectionToServer = net.createConnection(7890, '192.168.1.238', () => {
   console.log('i am connected');
 
   rl.prompt();
   rl.on('line', line => {
-    client.write(line);
+    connectionToServer.write(line);
     rl.prompt();
   });
 });
 
-client.on('data', data => {
+connectionToServer.on('data', data => {
   console.log(`\n${data.toString()}`);
   rl.prompt();
 });
-
-
-// const client = net.createConnection(7890, '192.168.1.145', () => {
-//   console.log('I am connected!');
-//   client.write('SOME PEOPLE ARE GETTING AN ERROR AND WE CANNOT FIGURE THAT ISH OUT');
-// });
-
