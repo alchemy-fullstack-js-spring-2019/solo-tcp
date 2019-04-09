@@ -12,7 +12,7 @@
     "url": "git+https://github.com/BenParisot/solo-tcp.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ben Parisot",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BenParisot/solo-tcp/issues"
