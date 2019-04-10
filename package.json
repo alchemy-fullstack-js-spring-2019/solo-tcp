@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/BenParisot/solo-tcp#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "jest": "^24.7.1"
+    "eslint": "^5.16.0"
   }
 }
