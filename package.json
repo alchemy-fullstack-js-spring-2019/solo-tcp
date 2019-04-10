@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/CheriPortman/solo-tcp#readme",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
   }
 }
