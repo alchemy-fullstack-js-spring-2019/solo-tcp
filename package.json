@@ -1,0 +1,24 @@
+{
+  "name": "solo-tcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheriPortman/solo-tcp.git"
+  },
+  "keywords": [],
+  "author": "Cheri Portman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CheriPortman/solo-tcp/issues"
+  },
+  "homepage": "https://github.com/CheriPortman/solo-tcp#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
