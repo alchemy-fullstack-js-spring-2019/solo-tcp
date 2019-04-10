@@ -4,7 +4,7 @@
   "description": "",
   "main": "client.js",
   "scripts": {
-    "test": "--passWithNoTests",
+    "test": "jest --verbose",
     "start": "node server.js"
   },
   "repository": {
