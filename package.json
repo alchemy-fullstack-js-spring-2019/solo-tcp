@@ -7,9 +7,7 @@
     "lib": "lib",
     "test": "test"
   },
-  "scripts": {
-    "test": "jest --verbose"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UncleJerry23/solo-tcp.git"
@@ -22,7 +20,6 @@
   },
   "homepage": "https://github.com/UncleJerry23/solo-tcp#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "jest": "^24.7.1"
+    "eslint": "^5.16.0"
   }
 }
