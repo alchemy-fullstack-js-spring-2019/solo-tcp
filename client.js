@@ -8,10 +8,12 @@ const rl = readline.createInterface({
 });
 
 const client = net.createConnection(9990, 'localHost', () => {
+  /*eslint-disable-next-line*/
   console.log('I am connected');
-
+  
   rl.prompt();
   rl.on('line', line => {
+    /*eslint-disable-next-line*/
     console.log('client line', line);
     client.write(line);
     rl.prompt();
@@ -19,6 +21,7 @@ const client = net.createConnection(9990, 'localHost', () => {
 });
 
 client.on('data', data => {
+  /*eslint-disable-next-line*/
   console.log(`\n${data.toString()}`);
   rl.prompt();
 });

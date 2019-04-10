@@ -8,6 +8,3 @@ const rs = fs.createReadStream('./1_streams.md', {
 const ws = fs.createWriteStream('./pipe.md');
 
 rs.pipe(ws);
-//can use multiple pipes for transforms
-
-
