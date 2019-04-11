@@ -12,7 +12,7 @@
 * Use `createConnection` to connect to port `7890`
 * use `pipe` to print data from the server to
   `process.stdout`
-* Why do we see a buffer?
+* Why do we see a buffer? 
   * HINT: look up `setEncoding`
 
 ## Listen to data on the server

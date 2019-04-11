@@ -1,0 +1,22 @@
+{
+  "name": "solo-tcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenParisot/solo-tcp.git"
+  },
+  "keywords": [],
+  "author": "Ben Parisot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenParisot/solo-tcp/issues"
+  },
+  "homepage": "https://github.com/BenParisot/solo-tcp#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
