@@ -1,0 +1,29 @@
+{
+  "name": "solo-tcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node lib/readStream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Masmics/solo-tcp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Masmics/solo-tcp/issues"
+  },
+  "homepage": "https://github.com/Masmics/solo-tcp#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "readline": "^1.3.0"
+  }
+}
